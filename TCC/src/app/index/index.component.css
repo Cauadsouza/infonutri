@@ -1,0 +1,135 @@
+
+main{
+    background-color: #137474;
+    height: 570vh;
+}
+
+#apresentacao {
+    background-image: url(/assets/fundo-texturizado.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+#dados_nutricionais {
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#exercicios_fisicos {
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contagem_calorias {
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#planos_alimentares {
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#ap_img {
+    height: 60vh;
+    border-radius: 50%;
+    border: 4px solid #f54828;
+}
+
+#ap_texto {
+    font-family: "Catamaran"
+}
+
+#box_ap {
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+#box_ap h1{
+    text-align: center;
+}
+
+.box_ap2{
+    border-left: 10px solid #f54828;
+    padding-left: 4vw;
+    padding-right: 10vw;
+} 
+
+.box_ap1{
+    border-right: 10px solid #f54828;
+    padding-left: 10vw;
+    padding-right: 4vw;
+}
+
+#box_ap a {
+    color: #f3f5f3;
+    background-color: #B46746;
+    border-radius: 20px;
+    font-family: Ubuntu;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    height: 20px;
+    width: 100px;
+}
+
+
+
+/*Responsavidade*/
+
+@media (max-width:950px){
+    .box{
+        flex-direction: column-reverse;
+    }
+
+    .box-reverse{
+        flex-direction: column;
+    }
+
+    #box_ap{
+        width: 70vw;
+        padding: 10vh;
+        border: none;
+    }
+
+    #ap_img{
+        margin-bottom: 3vh;
+    }
+}
+
+@media (max-width:650px){
+    #box_ap{
+        width: 80vw;
+        padding: 8vh;
+    }
+
+    #ap_img{
+        width: 50vw;
+        height: 50vh;
+    }
+}

@@ -1,0 +1,30 @@
+<section id="alimentos-if">
+<h3 id="AIF">ALIMENTOS IF</h3>
+<div class="card-body">
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Calorias</th>
+            <th scope="col">Gordura</th>
+            <th scope="col">Sodio</th>
+            <th scope="col">Carboidratos</th>
+            <th scope="col">Proteina</th>
+            <th scope="col">Fibra</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let alim of AlimentosIF">
+            <td class="ali">{{alim.Nome}}</td>
+            <td>{{alim.Calorias}}</td>
+            <td>{{alim.Gordura}}</td>
+            <td>{{alim.Sodio}}</td>
+            <td>{{alim.Carboidratos}}</td>
+            <td>{{alim.Proteina}}</td>
+            <td>{{alim.Fibra}}</td>
+          </tr>
+        </tbody>
+    </table>
+</div>
+</section>
+<div id="footer"></div>   

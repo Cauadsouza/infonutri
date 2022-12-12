@@ -1,0 +1,172 @@
+[
+    {
+        "id": 1,
+        "Nome": "Abóbora",
+        "Calorias": 435,
+        "Gordura": 0.2,
+        "Sodio": 58,
+        "Carboidratos": 8.2,
+        "Proteina": 0.8,
+        "Fibra": 0
+    },
+    {
+        "id": 2,
+        "Nome": "Alface",
+        "Calorias": 33,
+        "Gordura": 0.2,
+        "Sodio": 58,
+        "Carboidratos": 8.2,
+        "Proteina": 80,
+        "Fibra": 0
+    },
+    {
+        "id": 3,
+        "Nome": "Arroz",
+        "Calorias": 435,
+        "Gordura": 0.2,
+        "Sodio": 58,
+        "Carboidratos": 8.2,
+        "Proteina": 0.8,
+        "Fibra": 0
+    },
+    {
+        "id": 4,
+        "Nome": "Beringela",
+        "Calorias": 435,
+        "Gordura": 0.2,
+        "Sodio": 58,
+        "Carboidratos": 8.2,
+        "Proteina": 0.8,
+        "Fibra": 0
+    },
+    {
+        "id": 5,
+        "Nome": "Beterraba",
+        "Calorias": 435,
+        "Gordura": 0.2,
+        "Sodio": 58,
+        "Carboidratos": 8.2,
+        "Proteina": 0.8,
+        "Fibra": 0
+    },
+    {
+        "id": 6,
+        "Nome": "Batata",
+        "Calorias": 435,
+        "Gordura": 0.2,
+        "Sodio": 58,
+        "Carboidratos": 8.2,
+        "Proteina": 0.8,
+        "Fibra": 0
+    },
+    {
+        "id": 7,
+        "Nome": "Brócolis",
+        "Calorias": 435,
+        "Gordura": 0.2,
+        "Sodio": 58,
+        "Carboidratos": 8.2,
+        "Proteina": 0.8,
+        "Fibra": 0
+    },
+    {
+        "id": 8,
+        "Nome": "Cenoura",
+        "Calorias": 435,
+        "Gordura": 0.2,
+        "Sodio": 58,
+        "Carboidratos": 8.2,
+        "Proteina": 0.8,
+        "Fibra": 0
+    },
+    {
+        "id": 9,
+        "Nome": "Chuchu",
+        "Calorias": 435,
+        "Gordura": 0.2,
+        "Sodio": 58,
+        "Carboidratos": 8.2,
+        "Proteina": 0.8,
+        "Fibra": 0
+    },
+    {
+        "id": 10,
+        "Nome": "Ervilha",
+        "Calorias": 435,
+        "Gordura": 0.2,
+        "Sodio": 58,
+        "Carboidratos": 8.2,
+        "Proteina": 0.8,
+        "Fibra": 0
+    },
+    {
+        "id": 11,
+        "Nome": "Mandioca",
+        "Calorias": 435,
+        "Gordura": 0.2,
+        "Sodio": 58,
+        "Carboidratos": 8.2,
+        "Proteina": 0.8,
+        "Fibra": 0
+    },
+    {
+        "id": 12,
+        "Nome": "Milho Verde",
+        "Calorias": 435,
+        "Gordura": 0.2,
+        "Sodio": 58,
+        "Carboidratos": 8.2,
+        "Proteina": 0.8,
+        "Fibra": 0
+    },
+    {
+        "id": 13,
+        "Nome": "Pepino",
+        "Calorias": 435,
+        "Gordura": 0.2,
+        "Sodio": 58,
+        "Carboidratos": 8.2,
+        "Proteina": 0.8,
+        "Fibra": 0
+    },
+    {
+        "id": 14,
+        "Nome": "Tomate",
+        "Calorias": 435,
+        "Gordura": 0.2,
+        "Sodio": 58,
+        "Carboidratos": 8.2,
+        "Proteina": 0.8,
+        "Fibra": 0
+    },
+    {
+        "id": 15,
+        "Nome": "Cebola",
+        "Calorias": 435,
+        "Gordura": 0.2,
+        "Sodio": 58,
+        "Carboidratos": 8.2,
+        "Proteina": 0.8,
+        "Fibra": 0
+    },
+    {
+        "id": 16,
+        "Nome": "Batata doce",
+        "Calorias": 435,
+        "Gordura": 0.2,
+        "Sodio": 58,
+        "Carboidratos": 8.2,
+        "Proteina": 0.8,
+        "Fibra": 0
+    },
+    {
+        "id": 17,
+        "Nome": "Feijão",
+        "Calorias": 435,
+        "Gordura": 0.2,
+        "Sodio": 58,
+        "Carboidratos": 8.2,
+        "Proteina": 0.8,
+        "Fibra": 0
+    }
+]

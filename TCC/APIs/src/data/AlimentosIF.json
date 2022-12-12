@@ -1,0 +1,142 @@
+[
+    {
+        "id":  1,
+        "Nome": "Refrigerante",
+        "Calorias": 0,
+        "Gordura": 0,
+        "Sodio": 0,
+        "Carboidratos": 0,
+        "Proteina": 0,
+        "Fibra": 0
+    },
+    {
+        "id":  2,
+        "Nome": "Refrigerante",
+        "Calorias": 0,
+        "Gordura": 0,
+        "Sodio": 0,
+        "Carboidratos": 0,
+        "Proteina": 0,
+        "Fibra": 0
+    },
+    {
+        "id":  3,
+        "Nome": "Refrigerante",
+        "Calorias": 0,
+        "Gordura": 0,
+        "Sodio": 0,
+        "Carboidratos": 0,
+        "Proteina": 0,
+        "Fibra": 0
+    },
+    {
+        "id":  4,
+        "Nome": "Refrigerante",
+        "Calorias": 0,
+        "Gordura": 0,
+        "Sodio": 0,
+        "Carboidratos": 0,
+        "Proteina": 0,
+        "Fibra": 0
+    },
+    {
+        "id":  5,
+        "Nome": "Suco de Laranja",
+        "Calorias": 0,
+        "Gordura": 0,
+        "Sodio": 0,
+        "Carboidratos": 0,
+        "Proteina": 0,
+        "Fibra": 0
+    },
+    {
+        "id":  6,
+        "Nome": "Suco de Maracujá",
+        "Calorias": 0,
+        "Gordura": 0,
+        "Sodio": 0,
+        "Carboidratos": 0,
+        "Proteina": 0,
+        "Fibra": 0
+    },
+    {
+        "id":  7,
+        "Nome": "Suco de Abacaxi",
+        "Calorias": 0,
+        "Gordura": 0,
+        "Sodio": 0,
+        "Carboidratos": 0,
+        "Proteina": 0,
+        "Fibra": 0
+    },
+    {
+        "id":  8,
+        "Nome": "Suco de Acerola",
+        "Calorias": 0,
+        "Gordura": 0,
+        "Sodio": 0,
+        "Carboidratos": 0,
+        "Proteina": 0,
+        "Fibra": 0
+    },
+    {
+        "id":  9,
+        "Nome": "Suco de Cajá",
+        "Calorias": 0,
+        "Gordura": 0,
+        "Sodio": 0,
+        "Carboidratos": 0,
+        "Proteina": 0,
+        "Fibra": 0
+    },
+    {
+        "id":  10,
+        "Nome": "Suco de Caju",
+        "Calorias": 0,
+        "Gordura": 0,
+        "Sodio": 0,
+        "Carboidratos": 0,
+        "Proteina": 0,
+        "Fibra": 0
+    },
+    {
+        "id":  11,
+        "Nome": "Suco de Goaiaba",
+        "Calorias": 0,
+        "Gordura": 0,
+        "Sodio": 0,
+        "Carboidratos": 0,
+        "Proteina": 0,
+        "Fibra": 0
+    },
+    {
+        "id":  12,
+        "Nome": "Suco de Uva",
+        "Calorias": 0,
+        "Gordura": 0,
+        "Sodio": 0,
+        "Carboidratos": 0,
+        "Proteina": 0,
+        "Fibra": 0
+    },
+    {
+        "id":  13,
+        "Nome": "Suco de Limão",
+        "Calorias": 0,
+        "Gordura": 0,
+        "Sodio": 0,
+        "Carboidratos": 0,
+        "Proteina": 0,
+        "Fibra": 0
+    },
+    {
+        "id":  14,
+        "Nome": "Milk Shake",
+        "Calorias": 0,
+        "Gordura": 0,
+        "Sodio": 0,
+        "Carboidratos": 0,
+        "Proteina": 0,
+        "Fibra": 0
+    }
+]

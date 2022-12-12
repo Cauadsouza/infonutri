@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "Nome": "Macarrão",
+        "Calorias": 435,
+        "Gordura": 0.2,
+        "Sodio": 58,
+        "Carboidratos": 8.2,
+        "Proteina": 0.8,
+        "Fibra": 0
+    },
+    {
+        "id": 2,
+        "Nome": "Tapioca",
+        "Calorias": 33,
+        "Gordura": 0.2,
+        "Sodio": 58,
+        "Carboidratos": 8.2,
+        "Proteina": 80,
+        "Fibra": 0
+    },
+    {
+        "id": 3,
+        "Nome": "Pão",
+        "Calorias": 435,
+        "Gordura": 0.2,
+        "Sodio": 58,
+        "Carboidratos": 8.2,
+        "Proteina": 0.8,
+        "Fibra": 0
+    },
+    {
+        "id": 4,
+        "Nome": "Hamburque",
+        "Calorias": 435,
+        "Gordura": 0.2,
+        "Sodio": 58,
+        "Carboidratos": 8.2,
+        "Proteina": 0.8,
+        "Fibra": 0
+    },
+    {
+        "id": 5,
+        "Nome": "Coxinha",
+        "Calorias": 435,
+        "Gordura": 0.2,
+        "Sodio": 58,
+        "Carboidratos": 8.2,
+        "Proteina": 0.8,
+        "Fibra": 0
+    },
+    {
+        "id": 6,
+        "Nome": "Enroladinho",
+        "Calorias": 435,
+        "Gordura": 0.2,
+        "Sodio": 58,
+        "Carboidratos": 8.2,
+        "Proteina": 0.8,
+        "Fibra": 0
+    },
+    {
+        "id": 7,
+        "Nome": "Empada de frango",
+        "Calorias": 435,
+        "Gordura": 0.2,
+        "Sodio": 58,
+        "Carboidratos": 8.2,
+        "Proteina": 0.8,
+        "Fibra": 0
+    },
+    {
+        "id": 8,
+        "Nome": "Empada Doce",
+        "Calorias": 435,
+        "Gordura": 0.2,
+        "Sodio": 58,
+        "Carboidratos": 8.2,
+        "Proteina": 0.8,
+        "Fibra": 0
+    },
+    {
+        "id": 9,
+        "Nome": "Pastel de forno",
+        "Calorias": 435,
+        "Gordura": 0.2,
+        "Sodio": 58,
+        "Carboidratos": 8.2,
+        "Proteina": 0.8,
+        "Fibra": 0
+    },
+    {
+        "id": 10,
+        "Nome": "Pastel",
+        "Calorias": 435,
+        "Gordura": 0.2,
+        "Sodio": 58,
+        "Carboidratos": 8.2,
+        "Proteina": 0.8,
+        "Fibra": 0
+    },
+    {
+        "id": 11,
+        "Nome": "Brigadeiro",
+        "Calorias": 435,
+        "Gordura": 0.2,
+        "Sodio": 58,
+        "Carboidratos": 8.2,
+        "Proteina": 0.8,
+        "Fibra": 0
+    },
+    {
+        "id": 12,
+        "Nome": "Pudim",
+        "Calorias": 435,
+        "Gordura": 0.2,
+        "Sodio": 58,
+        "Carboidratos": 8.2,
+        "Proteina": 0.8,
+        "Fibra": 0
+    }
+]
