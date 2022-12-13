@@ -72,6 +72,10 @@
     font-family: Ubuntu;
 }
 
+#card-p{
+    display: flex;
+}
+
 .card-body::-webkit-scrollbar{
     overflow: hidden;
     width: 0;

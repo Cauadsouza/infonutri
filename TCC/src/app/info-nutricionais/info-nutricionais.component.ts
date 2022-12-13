@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { LA } from '../Serviços/lista-alimentos';
 import { AlimentosService } from '../Serviços/alimentos.service';
-import { FormGroup, FormBuilder, Validators, FormControl } from '@angular/forms';
+import {FormControl } from '@angular/forms';
 
 @Component({
   selector: 'app-info-nutricionais',
@@ -21,6 +21,7 @@ export class InfoNutricionaisComponent implements OnInit {
   displayD = 'card-d'
   displayF = 'card-f'
   displayV = 'card-v'
+  displayP ='card-p'
   pesquisa = new FormControl("");
   
   constructor(private alimentosService:AlimentosService) {}
@@ -70,12 +71,14 @@ export class InfoNutricionaisComponent implements OnInit {
 
   /*EXIBIR TABELA*/
 
+
   ExibirB(){
     this.displayB='flex';
     this.displayC='none';
     this.displayD='none';
     this.displayF='none';
     this.displayV='none';
+    this.displayP='none'
   }
 
   ExibirC(){
@@ -84,6 +87,7 @@ export class InfoNutricionaisComponent implements OnInit {
     this.displayD='none';
     this.displayF='none';
     this.displayV='none';
+    this.displayP='none'
   }
 
   ExibirD(){
@@ -92,6 +96,7 @@ export class InfoNutricionaisComponent implements OnInit {
     this.displayC='none';
     this.displayF='none';
     this.displayV='none';
+    this.displayP='none'
   }
 
   ExibirF(){
@@ -100,6 +105,7 @@ export class InfoNutricionaisComponent implements OnInit {
     this.displayB='none';
     this.displayD='none';
     this.displayV='none';
+    this.displayP='none'
   }
 
   ExibirV(){
@@ -108,6 +114,16 @@ export class InfoNutricionaisComponent implements OnInit {
     this.displayC='none';
     this.displayD='none';
     this.displayF='none';
+    this.displayP='none'
+  }
+
+  ExibirP(){
+    this.displayV='none'
+    this.displayB='none';
+    this.displayC='none';
+    this.displayD='none';
+    this.displayF='none';
+    this.displayP='flex'
   }
 
 }
