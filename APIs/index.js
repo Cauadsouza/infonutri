@@ -6,6 +6,7 @@ const Variados = require('./src/data/Variados.json')
 const Frutas = require('./src/data/Frutas.json')
 const Vegetais = require('./src/data/Vegetais.json')
 const AlimentosIF = require('./src/data/AlimentosIF.json')
+const Alimentos = require('./src/data/TodosAlimentos.json')
 
 server.listen(300, () => {
     console.log("Funcionando...")
@@ -134,6 +135,27 @@ server.get('/alimentosIF/:id', (req, res) => {
 server.get('/alimentosIF/nome/:nm', (req, res) => {
     let nome = req.params.nm;
     let nm = AlimentosIF.filter(n => n.Nome == nome);
+    res.header('Access-Control-Allow-Origin','*');
+    res.json(nm);    
+})
+
+/*API de todos os alimentos*/
+
+server.get('/alimentos', (req,res) =>{
+    res.header('Access-Control-Allow-Origin','*');
+    res.json(Alimentos)
+});
+
+server.get('/alimentos/:id', (req, res) => {
+    let id = req.params.id;
+    let prod = Alimentos.filter(p => p.id == id)[0];
+    res.header('Access-Control-Allow-Origin','*');
+    res.json(prod);    
+})
+
+server.get('/alimentos/nome/:nm', (req, res) => {
+    let nome = req.params.nm;
+    let nm = Alimentos.filter(n => n.Nome == nome);
     res.header('Access-Control-Allow-Origin','*');
     res.json(nm);    
 })

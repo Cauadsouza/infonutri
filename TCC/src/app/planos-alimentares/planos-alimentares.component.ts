@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { LA } from '../Serviços/lista-alimentos';
 import { AlimentosService } from '../Serviços/alimentos.service';
-import { NgForm } from '@angular/forms';
+import { FormControl } from '@angular/forms';
 
 
 @Component({
@@ -12,6 +12,7 @@ import { NgForm } from '@angular/forms';
 export class PlanosAlimentaresComponent implements OnInit {
   alimento = {} as LA;
   AlimentosIF: LA[] = [];
+  pesquisa = new FormControl("");
   
 
   constructor(private alimentosService:AlimentosService) {}
@@ -25,6 +26,10 @@ export class PlanosAlimentaresComponent implements OnInit {
     this.alimentosService.getAlimentosIF().subscribe((AIF: LA[]) => {
       this.AlimentosIF = AIF;
     });
+  }
+
+  Pesquisa(){
+    return this.pesquisa.value;
   }
 
 }

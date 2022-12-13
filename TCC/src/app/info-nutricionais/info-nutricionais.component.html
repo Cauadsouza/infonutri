@@ -22,14 +22,16 @@
         </div>
     </div>
       <div id = div-infos>
-        <form (click)="ExibirP()">
+        <div id="div-form">
+        <form>
           <input type="text" placeholder="Pesquisar" class="Pesquisa" [formControl]="pesquisa">
         </form>
-        <div class="card-body" id='card-p' *ngFor="let alim of bebidas" [ngStyle]="{'display': displayP}">
-        <div *ngIf="Pesquisa() == alim.Nome" >
+       </div>
+        <div class="card-body" id='card-p' *ngFor="let alim of alimentos">
+        <div *ngIf="Pesquisa() == alim.Nome || Pesquisa() == alim.Nome.toLowerCase() || Pesquisa() == alim.Nome.toUpperCase()" >
         <table class="table">
             <thead>
-              <tr>
+              <tr >
                 <th scope="col">Nome</th>
                 <th scope="col">Calorias</th>
                 <th scope="col">Gordura</th>
@@ -53,11 +55,11 @@
         </table>
       </div>
     </div>
-      <div class="card-body" id='card-b'[ngStyle]="{'display': displayB}">  
+      <div class="card-body" id='card-b'[ngStyle]="{'display': displayB}" *ngIf="Pesquisa() == ''">  
         <table class="table">
             <thead>
               <tr>
-                <th scope="col" >Nome</th>
+                <th scope="col">Nome</th>
                 <th scope="col">Calorias</th>
                 <th scope="col">Gordura</th>
                 <th scope="col">Sodio</th>
@@ -79,7 +81,7 @@
             </tbody>
         </table>
     </div>
-    <div class="card-body" id='card-c' [ngStyle]="{'display': displayC}" *ngIf="displayP == 'none' ">
+    <div class="card-body" id='card-c' [ngStyle]="{'display': displayC}" *ngIf="Pesquisa() == ''">
         <table class="table">
             <thead>
               <tr>
@@ -105,7 +107,7 @@
             </tbody>
         </table>
     </div>
-    <div class="card-body" id='card-d' [ngStyle]="{'display': displayD}">
+    <div class="card-body" id='card-d' [ngStyle]="{'display': displayD}" *ngIf="Pesquisa() == ''">
         <table class="table">
             <thead>
               <tr>
@@ -131,7 +133,7 @@
             </tbody>
         </table>
     </div>
-    <div class="card-body" id='card-f' [ngStyle]="{'display': displayF}">
+    <div class="card-body" id='card-f' [ngStyle]="{'display': displayF}" *ngIf="Pesquisa() == ''">
         <table class="table">
             <thead>
               <tr>
@@ -157,7 +159,7 @@
             </tbody>
         </table>
     </div>
-    <div class="card-body" id='card-v' [ngStyle]="{'display': displayV}">
+    <div class="card-body" id='card-v' [ngStyle]="{'display': displayV}" *ngIf="Pesquisa() == ''">
         <table class="table">
             <thead>
               <tr>

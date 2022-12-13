@@ -14,7 +14,8 @@ export class AlimentosService {
   urlD = 'http://localhost:300/variados';
   urlF = 'http://localhost:300/frutas';
   urlV = 'http://localhost:300/vegetais';
-  urlAF ='http://localhost:300/alimentosIF'
+  urlAF ='http://localhost:300/alimentosIF';
+  URLA = 'http://localhost:300/alimentos';
 
   constructor(private httpClient: HttpClient) { }
 
@@ -118,6 +119,23 @@ export class AlimentosService {
 
   getAlimentosIFById(id: number): Observable<LA> {
     return this.httpClient.get<LA>(this.urlAF + '/' + id)
+      .pipe(
+        retry(2),
+        catchError(this.handleError)
+      )
+  }
+
+  getAlimentos(): Observable<LA[]> {
+    return this.httpClient.get<LA[]>(this.URLA)
+     .pipe(
+      retry(2),
+      catchError(this.handleError)
+     )
+  }
+  
+
+  getAlimentosById(id: number): Observable<LA> {
+    return this.httpClient.get<LA>(this.URLA + '/' + id)
       .pipe(
         retry(2),
         catchError(this.handleError)

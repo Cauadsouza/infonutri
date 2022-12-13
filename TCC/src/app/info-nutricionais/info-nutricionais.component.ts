@@ -16,12 +16,14 @@ export class InfoNutricionaisComponent implements OnInit {
   doces: LA[] = [];
   frutas: LA[] = [];
   vegetais: LA[] = [];
+  alimentos: LA[] = [];
   displayB = 'card-b'
   displayC = 'card-c'
   displayD = 'card-d'
   displayF = 'card-f'
   displayV = 'card-v'
   displayP ='card-p'
+  displayAll = 'card-body'
   pesquisa = new FormControl("");
   
   constructor(private alimentosService:AlimentosService) {}
@@ -34,6 +36,7 @@ export class InfoNutricionaisComponent implements OnInit {
     this.getVariados();
     this.getFrutas();
     this.getVegetais();
+    this.getAlimentos();
   }
 
   Pesquisa(){
@@ -69,6 +72,12 @@ export class InfoNutricionaisComponent implements OnInit {
     });
   }
 
+  getAlimentos() {
+    this.alimentosService.getAlimentos().subscribe((alimentos: LA[]) => {
+      this.alimentos = alimentos;
+    });
+  }
+
   /*EXIBIR TABELA*/
 
 
@@ -78,7 +87,6 @@ export class InfoNutricionaisComponent implements OnInit {
     this.displayD='none';
     this.displayF='none';
     this.displayV='none';
-    this.displayP='none'
   }
 
   ExibirC(){
@@ -87,7 +95,6 @@ export class InfoNutricionaisComponent implements OnInit {
     this.displayD='none';
     this.displayF='none';
     this.displayV='none';
-    this.displayP='none'
   }
 
   ExibirD(){
@@ -96,7 +103,6 @@ export class InfoNutricionaisComponent implements OnInit {
     this.displayC='none';
     this.displayF='none';
     this.displayV='none';
-    this.displayP='none'
   }
 
   ExibirF(){
@@ -105,7 +111,6 @@ export class InfoNutricionaisComponent implements OnInit {
     this.displayB='none';
     this.displayD='none';
     this.displayV='none';
-    this.displayP='none'
   }
 
   ExibirV(){
@@ -114,16 +119,7 @@ export class InfoNutricionaisComponent implements OnInit {
     this.displayC='none';
     this.displayD='none';
     this.displayF='none';
-    this.displayP='none'
   }
 
-  ExibirP(){
-    this.displayV='none'
-    this.displayB='none';
-    this.displayC='none';
-    this.displayD='none';
-    this.displayF='none';
-    this.displayP='flex'
-  }
 
 }
