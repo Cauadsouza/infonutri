@@ -22,8 +22,10 @@
             </div>
         </section>
         <section id="forms-box">
-        <div class="form-group">
+        <div class="form-group1">
+          <div class="forms-tit">
           <label><h3>Qual o seu Sexo?</h3></label>
+        </div>
         <div class="form-grupo">
           <div class="forms-img">
           <div class="form-check">
@@ -42,16 +44,20 @@
         </div>
         </div>
         <div class="forms-numbers">
+          <div class="forms-tit">
           <label for="idade"><h3>Qual a sua idade?</h3></label>
+        </div>
           <div class="forms-metricas">
           <input type="number" class="form-control" name="idade" id="idade" formControlName="idade">
           <label for="peso">anos</label>
           </div>
-       </div>
+        </div>
       </section>
       <section id="forms-box">
         <div class="form-group">
+          <div class="forms-tit">
             <label><h3>Fator de Atividade Fisica</h3></label>
+          </div>
             <div class="form-grupo">
             <div class="forms-text">
             <div class="form-check">
@@ -103,7 +109,7 @@
         <p><b>PARA PERDER PESO</b></p>
         <img class="logo" src="/assets/GD.png" height="150px" width="150px">
         <p>Calorias ingeridas diariamente</p>
-        <h3>{{resultado}}-500 até {{resultado - 1000}} kcal</h3>
+        <h3> {{resultado.toFixed(0)}} até {{resultado - 1000}} kcal</h3>
       </div>
       <div class="CCDN-box">
         <p><b>PARA MANTER O PESO</b></p>

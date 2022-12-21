@@ -23,8 +23,8 @@ export class ContagemCaloricaComponent implements OnInit {
     this.resultadoIMC = 0;
     this.resultadoID = "";
     this.GCform = this.fb.group({
-      peso: [0, [Validators.required, Validators.min(1), Validators.max(100)]],
-      idade: [0, [Validators.required,Validators.min(1), Validators.max(100)]],
+      peso: [0, [Validators.required, Validators.min(1), Validators.max(400)]],
+      idade: [0, [Validators.required,Validators.min(1), Validators.max(120)]],
       genero: [0, [Validators.required,Validators.min(1), Validators.max(2)]],
       fator: [0, [Validators.required,Validators.min(1), Validators.max(3)]],
       altura: [0, [Validators.required,Validators.min(1), Validators.max(250)]]
