@@ -3,21 +3,24 @@
     <form [formGroup]="GCform">
         <section id="forms-box">
             <div class="forms-numbers">
-              <div class="forms-tit">
                 <label for="peso"><h3>Qual o seu peso?</h3></label>
-              </div>
                 <div class="forms-metricas">
                 <input type="number" class="form-control" name="peso" id="peso" formControlName="peso">
                 <label for="peso">kg</label>
                 </div>
             </div>
             <div class="forms-numbers">
-              <div class="forms-tit">
                 <label for="altura"><h3>Qual a sua altura?</h3></label>
-              </div>
                 <div class="forms-metricas">
                 <input type="number" class="form-control" name="altura" id="altura" formControlName="altura">
                 <label for="peso">cm</label>
+                </div>
+            </div>
+            <div class="forms-numbers">
+                <label for="idade"><h3>Qual a sua idade?</h3></label>
+                <div class="forms-metricas">
+                <input type="number" class="form-control" name="idade" id="idade" formControlName="idade">
+                <label for="peso">anos</label>
                 </div>
             </div>
         </section>
@@ -41,15 +44,7 @@
           </div>
         </div>
         </div>
-        <div class="forms-numbers">
-          <label for="idade"><h3>Qual a sua idade?</h3></label>
-          <div class="forms-metricas">
-          <input type="number" class="form-control" name="idade" id="idade" formControlName="idade">
-          <label for="peso">anos</label>
-          </div>
-       </div>
-      </section>
-      <section id="forms-box">
+      
         <div class="form-group">
             <label><h3>Fator de Atividade Fisica</h3></label>
             <div class="form-grupo">

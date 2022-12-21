@@ -4,6 +4,9 @@ main{
     height: 570vh;
     padding-top: 10vh;
 }
+h1{
+    font-family: didot;
+}
 
 #apresentacao {
     background-image: url(/assets/fundo-texturizado.webp);
@@ -64,7 +67,7 @@ main{
 }
 
 #box_ap {
-    width: 38vw;
+    width: 35vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -100,7 +103,7 @@ main{
     color: #f3f5f3;
     background-color: #B46746;
     border-radius: 20px;
-    font-family: Courier New;
+    font-family: Ubuntu;
     font-weight: 600;
     font-style: normal;
     font-size: 14px;
@@ -140,17 +143,11 @@ main{
 @media (max-width:650px){
     #box_ap{
         width: 80vw;
-        margin-top: 10vh;
-        padding: 4vh;
-    }
-
-    #box_ap3{
-        width: 80vw;
+        padding: 8vh;
     }
 
     #ap_img{
         width: 50vw;
         height: 50vh;
     }
-
 }
