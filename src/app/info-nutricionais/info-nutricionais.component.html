@@ -17,7 +17,7 @@
             </div>
             <div class="LAs" (click)="ExibirD()">
               <li>Variados</li>
-           </div>
+        </div>
         </ul>
         </div>
     </div>
@@ -26,7 +26,7 @@
         <form>
           <input type="text" placeholder="Pesquisar" class="Pesquisa" [formControl]="pesquisa">
         </form>
-       </div>
+      </div>
         <div class="card-body" id='card-p' *ngFor="let alim of alimentos">
         <div *ngIf="Pesquisa() == alim.Nome || Pesquisa() == alim.Nome.toLowerCase() || Pesquisa() == alim.Nome.toUpperCase()" >
         <table class="table">

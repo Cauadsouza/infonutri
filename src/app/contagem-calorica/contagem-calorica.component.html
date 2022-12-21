@@ -85,20 +85,20 @@
     </section>
     <section id="resultados">
       <div>
-        <input type="button" class="btn btr" value="Calorias Diarias Gastas" [disabled]="GCform.invalid" (click)="Calcular()">
+        <input type="button" class="btn btr" value="Calorias diarias gastas" [disabled]="GCform.invalid" (click)="Calcular()">
       </div>
       <div>
         <input type="button" class="btn bt" value="Peso Ideal" [disabled]="GCform.invalid" (click)="CalcularPI()">
       </div>
       <div >
-        <input type="button" class="btn" value="Calcular calorias diárias necessárias"[disabled]="GCform.invalid" (click)="CalcularID()">
+        <input type="button" class="btn" value="Consumo de calorias diarias"[disabled]="GCform.invalid" (click)="CalcularID()">
       </div>
     </section>
     </form>
     <div id="displayC" [ngStyle]="{'display': displayC}">
       <h3>Seu Resultado</h3>
       <div id="dC">
-        <p>{{resultado.toFixed(0)}} kcal</p>
+        <p>{{resultado.toFixed(0)}} kcal diarias</p>
       </div>
     </div>
     <div id="displayP" [ngStyle]="{'display': displayPI}">
@@ -115,13 +115,13 @@
         <p><b>PARA MANTER O PESO</b></p>
         <img class="logo" src="/assets/GL.png" height="150px" width="150px">
         <p>Calorias ingeridas diariamente</p>
-        <h3>{{resultado - 0}} até {{resultado - 200}} kcal</h3>
+        <h3>{{(resultado - 200).toFixed(0)}} até {{resultado.toFixed(0)}} kcal</h3>
       </div>
       <div class="CCDN-box">
         <p><b>PARA GANHAR PESO</b></p>
         <img class="logo" src="/assets/GA.png" height="150px" width="150px">
         <p>Calorias ingeridas diariamente</p>
-        <h3>{{resultado + 500}} até {{resultado + 1000}} kcal</h3>
+        <h3> {{(resultado + 500).toFixed(0)}} até {{(resultado + 1000).toFixed(0)}} kcal</h3>
       </div>
     </div>
 </section>

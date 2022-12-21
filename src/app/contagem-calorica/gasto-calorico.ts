@@ -15,7 +15,7 @@ export class GastoCalorico {
 
     set peso(pes: number) {
         if (pes >= 0 && pes <= 100) {
-          this._peso = pes;
+        this._peso = pes;
         }
     }
     
@@ -25,7 +25,7 @@ export class GastoCalorico {
 
     set idade(ida: number) {
         if (ida >= 0 && ida <= 100) {
-          this._idade = ida;
+        this._idade = ida;
         }
     }
     
@@ -35,7 +35,7 @@ export class GastoCalorico {
 
     set genero(gen: number) {
         if (gen >= 1 && gen <= 2) {
-          this._genero = gen;
+        this._genero = gen;
         }
     }
     
@@ -45,7 +45,7 @@ export class GastoCalorico {
 
     set fator(fat: number) {
         if (fat >= 1 && fat <= 3) {
-          this._fator = fat;
+        this._fator = fat;
         }
     }
     
@@ -55,7 +55,7 @@ export class GastoCalorico {
     
     set altura(alt: number) {
         if (alt >= 0 && alt <= 250) {
-          this._altura = alt;
+        this._altura = alt;
         }
     }
     
