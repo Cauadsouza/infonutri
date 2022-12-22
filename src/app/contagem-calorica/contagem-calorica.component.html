@@ -1,6 +1,11 @@
 <section id="forms-container">
-  <h1>Lorem ipsum dolor</h1>
-    <form [formGroup]="GCform">
+  <div id="apresentacao">
+  <h1>Calculadora da saúde</h1>
+  <div id="text-box">
+  <p>Saber o quanto o organismo gasta de energia em um dia normal é um ótimo ponto de partida para quem quer emagrecer. A partir daí, é possível estabelecer uma dieta que estimule o organismo a queimar a tão indesejada gordura acumulada. Mas o que é, exatamente, a taxa metabólica basal? Como ela pode ser calculada? Veja as informações e a calculadora abaixo.</p>
+</div>
+</div>
+  <form [formGroup]="GCform">
         <section id="forms-box">
             <div class="forms-numbers">
               <div class="forms-tit">
@@ -30,16 +35,16 @@
           <div class="forms-img">
           <div class="form-check">
             <input class="form-check-input" type="radio" name="genero" id="masculino" [value]="1" formControlName="genero">
-            <label class="form-check-label" for="masculino">Masculino</label>
+            <label class="form-check-label" for="masculino">MASCULINO</label>
           </div>
-          <img id="ap_img" src="assets/modelo_generico.jfif" height="100px" width="100px">
+          <img id="ap_img" src="assets/mulher.png" height="80px" width="80px">
           </div>
           <div class="forms-img">
           <div class="form-check">
             <input class="form-check-input" type="radio" name="genero" id="feminino" [value]="2" formControlName="genero">
-            <label class="form-check-label" for="feminino">Feminino</label>
+            <label class="form-check-label" for="feminino">FEMININO</label>
           </div>
-          <img id="ap_img" src="assets/modelo_generico.jfif" height="100px" width="100px">
+          <img id="ap_img" src="assets/homem.png" height="80px" width="80px">
           </div>
         </div>
         </div>
@@ -62,23 +67,23 @@
             <div class="forms-text">
             <div class="form-check">
               <input class="form-check-input" type="radio" name="fator" id="leve" [value]="1" formControlName="fator">
-              <label class="form-check-label" for="leve">Leve</label>
+              <label class="form-check-label" for="leve">LEVE</label>
             </div>
-            <div class="text-box">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pulvinar, tortor eu tincidunt interdum.</div>
+            <div class="text-box">Tomar banho, fazer a barba, dirigir, lavar louça, arrumar a cama, etc.</div>
             </div>
             <div class="forms-text">
             <div class="form-check">
               <input class="form-check-input" type="radio" name="fator" id="moderado" [value]="2" formControlName="fator">
-              <label class="form-check-label" for="moderado">Moderado</label>
+              <label class="form-check-label" for="moderado">MODERADO</label>
             </div>
-            <div class="text-box">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pulvinar, tortor eu tincidunt interdum.</div>
+            <div class="text-box">Jardinagem, jogar vôlei, hidrogínastica, pedalar, caminhar rápido, etc.</div>
             </div>
             <div class="forms-text">
             <div class="form-check">
                 <input class="form-check-input" type="radio" name="fator" id="intenso" [value]="3" formControlName="fator">
-                <label class="form-check-label" for="moderado">Intenso</label>
+                <label class="form-check-label" for="moderado">INTENSO</label>
             </div>
-            <div class="text-box">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pulvinar, tortor eu tincidunt interdum.</div>
+            <div class="text-box">Subir escada, natação, pular corda, jogar futebol, corrida, etc.</div>
             </div>
           </div>
         </div>

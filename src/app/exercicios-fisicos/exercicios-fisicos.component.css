@@ -9,6 +9,79 @@
     padding-top: 15vh;
 }
 
+#biotipos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.carrosel{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 90vw;
+    background-color: whitesmoke;
+    margin: 5vh;
+    border-radius: 10px;
+}
+
+.ap_title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    height: 35vh;
+    border-radius: 10px;
+    background-color: rgb(111, 180, 9);
+}
+
+.ap_title h1{
+    font-size: 70px;
+    letter-spacing: 1.23px;
+    line-height: 1.20em;
+}
+
+.ap_text2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+}
+
+.ap_text1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 18vw;
+    text-align: justify;
+    margin: 2vw;
+}
+
+.ap_text1 h3{
+    font-size: 28px;
+}
+
+.ap_text h3,.ap_text li{
+    color: black;
+}
+
+.ap_text2 li{
+    font-family: calibri;
+    line-height: 1.35em;
+}
+
+#lista_causas li{
+    margin: 2vh;
+}
+
+.ap_text2 h3{
+    color: black;
+    font-family: serif;
+}
+
+
 .ap_text{
     display: flex;
     flex-direction: column;
@@ -138,9 +211,22 @@ iframe{
     iframe{
         width: 50vw;
     }
+
+    .carrosel{
+        width: 95vw;
+        height: 130vh;
+    }
+
+    .ap_title{
+        width: 95vw;
+    }
+
+    .ap_text1{
+        margin: 1.5vw;
+    }
 }
 
-@media (max-width:650px){
+@media (max-width:750px){
     .ap_text{
         width: 80vw;
         padding: 8vh;
@@ -151,5 +237,26 @@ iframe{
     }
     h1{
         font-size: 44px;
+    }
+
+    .carrosel{
+        height: 130vh;
+    }
+
+    .ap_text2{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ap_text1{
+        width: 80%;
+    }
+
+    .ap_title h1{
+        font-size: 36px;
+    }
+
+    h1{
+        font-size: 30px;
     }
 }

@@ -1,9 +1,141 @@
-#dados-nutri{
+#doenças{
     width: 100%;
-    height: 320vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: #137474;
+    padding-top: 14vh;
+}
+
+h1{
+    text-align: center;
+}
+
+#apresentacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5vh;
+}
+
+#apresentacao-t{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: green;
+    width: 80vw;
+    margin-bottom: 6vh;
+}
+
+.carrosel{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 90vw;
+    background-color: whitesmoke;
+    margin: 5vh;
+    border-radius: 10px;
+}
+
+.ap_title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    height: 35vh;
+    border-radius: 10px;
+    background-color: rgb(111, 180, 9);
+}
+
+.ap_title h1{
+    font-size: 70px;
+    letter-spacing: 1.23px;
+    line-height: 1.20em;
+}
+
+.ap_text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+}
+
+#sedentarismo{
+    background-color: rgb(202, 76, 31);
+}
+
+#diabetes{
+    background-color: rgb(140, 11, 11);
+}
+
+.ap_text1{
+    display: flex;
+    flex-direction: column;
+    width: 18vw;
+    text-align: justify;
+    margin: 2vw;
+}
+
+.ap_text1 h3{
+    font-size: 28px;
+}
+
+.ap_text h3,.ap_text li{
+    color: black;
+}
+
+.ap_text li{
+    font-family: calibri;
+    line-height: 1.35em;
+}
+
+#lista_causas li{
+    margin: 2vh;
+}
+
+#apresentacao h3{
+    font-size: 26px;
+}
+
+@media(max-width:900px){
+    .carrosel{
+        width: 95vw;
+        height: 130vh;
+    }
+
+    .ap_title{
+        width: 95vw;
+    }
+
+    .ap_text1{
+        margin: 1.5vw;
+    }
+}
+
+@media(max-width:750px){
+    .carrosel{
+        height: 145vh;
+    }
+
+    .ap_text{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ap_text1{
+        width: 80%;
+    }
+
+    .ap_title h1{
+        font-size: 36px;
+    }
+
+    #apresentacao h3{
+        font-size: 22px;
+    }
 }
