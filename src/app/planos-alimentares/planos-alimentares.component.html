@@ -1,5 +1,8 @@
 <section id="alimentos-if">
+<div style="display: flex;flex-direction: row;">
+<img id="ap_img" src="assets/cantina_if.png" width="100px" height="100px">
 <h3 id="AIF">ALIMENTOS IF</h3>
+</div>
 <form>
   <input type="text" placeholder="Pesquisar" class="Pesquisa" [formControl]="pesquisa">
 </form>
@@ -9,6 +12,7 @@
         <thead>
           <tr>
             <th scope="col">Nome</th>
+            <th scope="col">Peso</th>
             <th scope="col">Calorias</th>
             <th scope="col">Gordura</th>
             <th scope="col">Sodio</th>
@@ -20,6 +24,7 @@
         <tbody>
           <tr>
             <td class="ali">{{alim.Nome}}</td>
+            <td>100g ou ml</td>
             <td>{{alim.Calorias}}</td>
             <td>{{alim.Gordura}}</td>
             <td>{{alim.Sodio}}</td>
@@ -37,6 +42,7 @@
           <thead>
             <tr>
               <th scope="col">Nome</th>
+              <th scope="col">Peso</th>
               <th scope="col">Calorias</th>
               <th scope="col">Gordura</th>
               <th scope="col">Sodio</th>
@@ -48,6 +54,7 @@
           <tbody>
             <tr *ngFor="let alim of AlimentosIF">
               <td class="ali">{{alim.Nome}}</td>
+              <td>100g ou ml</td>
               <td>{{alim.Calorias}}</td>
               <td>{{alim.Gordura}}</td>
               <td>{{alim.Sodio}}</td>
@@ -60,4 +67,7 @@
   </div>
   </section>
 </section>
-<div id="footer"></div>   
+<div id="footer">
+  <p>Desenvolvido por Jehnnyfer Oliveira Fernandes e Cauã Dantas de Souza</p>
+  <p><b>Instituto federal do Rio Grande do Norte - Campus Parnamirim</b></p>
+</div>  

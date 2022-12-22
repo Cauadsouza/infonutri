@@ -19,7 +19,7 @@
 .carrosel{
     display: flex;
     flex-direction: column;
-    height: 80vh;
+    height: 60vh;
     width: 90vw;
     background-color: whitesmoke;
     margin: 5vh;
